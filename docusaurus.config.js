@@ -33,8 +33,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'es',
-    locales: ['es'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -42,36 +42,21 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        blog: false,
         docs: {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Ccanchillo/Doc.Inspeccionar',
         },
-        /*
-        blog: {
-
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
-        */
-        blog:false,
+        
         theme: {
           customCss: './src/css/custom.css',
         },
+        
       }),
+      
     ],
   ],
 
@@ -93,7 +78,7 @@ const config = {
             position: 'left',
             label: 'Inspeccionar',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+
           {
             href: 'https://github.com/Ccanchillo/Doc.Inspeccionar',
             label: 'GitHub',
@@ -134,12 +119,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Ccanchillo/Doc.Inspeccionar',
               },
             ],
           },

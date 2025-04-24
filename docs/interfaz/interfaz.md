@@ -24,7 +24,7 @@ Estos son los módulos más usados, accesibles desde la parte superior del panel
 - [**Fuentes**](paneles/sources): depura JavaScript con breakpoints y explora archivos fuente.
 - [**Rendimiento**](paneles/performance): graba y muestra un timeline para encontrar cuellos de botella.
 - [**Memoria**](paneles/memory): toma snapshots de memoria para detectar fugas.
-- [**Aplicación**](paneles/applicaton): gestiona almacenamiento (LocalStorage, IndexedDB, cookies) y PWA.
+- [**Aplicación**](paneles/application): gestiona almacenamiento (LocalStorage, IndexedDB, cookies) y PWA.
 - [**Lighthouse**](paneles/lighthouse): realiza auditorías de performance, accesibilidad y SEO con sugerencias.
 
 > Estos paneles funcionan como **“aplicaciones dentro de la aplicación”**: Desplázate entre ellos según tu requerimiento.
@@ -53,7 +53,7 @@ Dentro de cada panel, encontrarás pestañas secundarias que te permiten profund
 - En [**Memoria**](paneles/memory):  
   - **Heap Snapshot**, **Allocation Instrumentation**, **Allocation Timeline**.  
 
-- En [**Aplicación**](paneles/applicaton):  
+- En [**Aplicación**](paneles/application):  
   - **Application** , **Storage**, **Background**, **Frames**.  
 
 - En [**Lighthouse**](paneles/lighthouse):  
