@@ -1,7 +1,3 @@
----
-sidebar_label: 'Visión General'
----
-
 # Visión General del Panel de Desarrollo (DevTools)
 
 Antes de sumergirnos en cada sección, esta visión general te dará el panorama completo de lo que encontrarás en DevTools. Aquí entenderás cómo está organizado el espacio de trabajo, qué elementos forman parte de la interfaz y cómo moverte con agilidad entre sus distintas áreas.

@@ -31,16 +31,46 @@ const sidebars = {
   ],
    */
   tutorialSidebar: [
-    'intro',
-    'acceso/acceso',
-    'interfaz/interfaz',
+    {
+      type: 'doc',
+      label: 'Introducción',
+      id: 'intro',
+      className: 'intro',
+    },
+    {
+      type: 'doc',
+      label: 'Acceso',
+      id: 'acceso/acceso',
+      className: 'acceso-icono', 
+    },
+    {
+      type: 'doc',
+      label: 'Visión General',
+      id: 'interfaz/interfaz',
+      className: 'interfaz-icono',
+    },
     {
       type: 'category',
       label: 'Paneles',
-      link: {type: 'generated-index'},
-      items: ['paneles/elements', 'paneles/console', 'paneles/network', 'paneles/sources', 'paneles/performance', 'paneles/memory', 'paneles/application', 'paneles/lighthouse'],
+      link: { type: 'generated-index' },
+      className: 'paneles-icono',
+      items: [
+        { type: 'doc', id: 'paneles/elements', className: 'elements-icono' },
+        { type: 'doc', id: 'paneles/console', className: 'console-icono' },
+        { type: 'doc', id: 'paneles/network', className: 'network-icono' },
+        { type: 'doc', id: 'paneles/sources', className: 'sources-icono' },
+        { type: 'doc', id: 'paneles/performance', className: 'performance-icono' },
+        { type: 'doc', id: 'paneles/memory', className: 'memory-icono' },
+        { type: 'doc', id: 'paneles/application', className: 'application-icono' },
+        { type: 'doc', id: 'paneles/lighthouse', className: 'lighthouse-icono' },
+      ],
     },
-    'comandos',
+    {
+      type: 'doc',
+      label: 'Visión General',
+      id: 'comandos',
+      className: 'comandos-icono',
+    },
   ],
 };
 module.exports = sidebars;

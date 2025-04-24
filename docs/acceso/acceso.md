@@ -1,7 +1,3 @@
----
-sidebar_label: 'Accesos'
----
-
 # Cómo acceder a “Inspeccionar”
 
 > También conocido como **“DevTools”**, este apartado muestra todas las vías para abrir y usar **DevTools** (Inspeccionar) de forma rápida y sin complicaciones.

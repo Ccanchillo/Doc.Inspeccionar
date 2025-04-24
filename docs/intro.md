@@ -1,5 +1,4 @@
 ---
-sidebar_label: 'Introducción'
 sidebar_position: 1
 ---
 

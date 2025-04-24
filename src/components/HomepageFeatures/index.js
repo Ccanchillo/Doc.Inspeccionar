@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Explora sin complicaciones',
+    Svg: require('@site/static/img/1.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Este manual está pensado para que puedas dominar el Inspector de una forma intuitiva. Cada sección te guía con imágenes, ejemplos reales y pasos concretos, para que no te pierdas entre tanto código ni opciones. ¡Aprender a inspeccionar elementos nunca fue tan directo!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Detecta Errores',
+    Svg: require('@site/static/img/2.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Aprende a identificar problemas en tu página usando las herramientas del Inspector. Desde errores de consola hasta recursos que no cargan, este manual te enseña paso a paso cómo encontrarlos, entenderlos y solucionarlos sin complicarte la vida.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Analiza la Web',
+    Svg: require('@site/static/img/3.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Con el Inspector puedes ver cómo está construida cualquier página: su estructura, estilos, rendimiento y más. Aquí te mostramos cómo usar cada panel para sacarle el jugo al análisis, ya sea que estés optimizando tu propio sitio o espiando cómo lo hacen los demás.
       </>
     ),
   },
