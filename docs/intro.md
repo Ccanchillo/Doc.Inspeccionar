@@ -1,47 +1,43 @@
 ---
+sidebar_label: 'Introducción'
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introducción
 
-Let's discover **Docusaurus in less than 5 minutes**.
+En esta documentación exploraremos la herramienta [**"Inspeccionar"**](#qué-es-inspeccionar) que ofrecen los navegadores modernos. Esta guía está pensada tanto para quienes están iniciándose en el desarrollo web, como para usuarios curiosos que desean entender cómo funcionan las páginas por dentro.
 
-## Getting Started
+### A lo largo de este documento, veremos:
 
-Get started by **creating a new site**.
+- Qué es exactamente la opción [**"Inspeccionar"**](#qué-es-inspeccionar) y cómo se [**accede**](acceso/acceso.md).
+- Cómo interpretar y utilizar los paneles más importantes: [`Elements`](paneles/elements), [`Console`](paneles/console), [`Network`](paneles/network), [`Sources`](paneles/sources), entre otros.
+- Qué ventajas ofrece para depurar errores, hacer pruebas rápidas o mejorar el rendimiento de un sitio web.
+- Casos prácticos y recomendaciones de uso.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
+Esta guía te ayuda a comprender mejor el entorno donde se ejecutan las páginas web.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+---
 
-## Generate a new site
+## ¿Qué es "Inspeccionar"?
 
-Generate a new Docusaurus site using the **classic template**.
+La opción **"Inspeccionar"** (también conocida como **DevTools** o Herramientas para desarrolladores) es una funcionalidad integrada en los navegadores modernos como Chrome, Firefox, Edge, Safari, entre otros. Se [**accede**](acceso/acceso.md) al hacer clic derecho sobre cualquier parte de una página web y seleccionar **“Inspeccionar”** (Inspect).
 
-The classic template will automatically be added to your project after you run the command:
+Esta herramienta permite **ver, analizar y modificar** la estructura interna de una página web en tiempo real, incluyendo HTML, CSS, JavaScript, rendimiento, almacenamiento, y más.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## ¿Por qué es útil para desarrolladores y usuarios avanzados?
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+- Permite **ver el código fuente real** que está renderizando el navegador.
+- Se puede **modificar el contenido visual** (texto, estilos, imágenes) sin afectar el servidor.
+- Es ideal para **depurar errores** en JavaScript, CSS o problemas de carga.
+- Facilita pruebas rápidas sin necesidad de editar archivos reales.
+- Es usada para **auditorías de rendimiento, accesibilidad y SEO** mediante herramientas como Lighthouse.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+También es una forma excelente para **aprender cómo funcionan las páginas** viendo cómo están construidas "por dentro".
 
-## Start your site
 
-Run the development server:
 
-```bash
-cd my-website
-npm run start
-```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+
